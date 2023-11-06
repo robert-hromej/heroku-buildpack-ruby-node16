@@ -2,7 +2,7 @@ require 'json'
 
 class LanguagePack::Helpers::Nodebin
   def self.hardcoded_node_lts
-    version = "20.9.0"
+    version = "16.19.0"
     {
       "number" => version,
       "url"    => "https://heroku-nodebin.s3.us-east-1.amazonaws.com/node/release/linux-x64/node-v#{version}-linux-x64.tar.gz"
